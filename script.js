@@ -1,2 +1,2 @@
-let ab = document.getElementById("heading");
+let ab = document.getElementsByClassName("heading");
 console.log(ab);
