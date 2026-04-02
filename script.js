@@ -1,2 +1,4 @@
-let ab = document.getElementsByClassName("heading");
-console.log(ab);
+let app = document.querySelector(".divine");
+app.addEventListener("click", function() {
+    app.style.color = "red";
+});
