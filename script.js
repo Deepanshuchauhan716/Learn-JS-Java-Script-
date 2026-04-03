@@ -1,4 +1,4 @@
 let app = document.querySelector(".divine");
 app.addEventListener("click", function() {
-    app.style.color = "black";
+    app.style.backgroundColor = "red";
 });
