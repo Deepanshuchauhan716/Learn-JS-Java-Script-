@@ -1,12 +1,6 @@
-let h1 = document.querySelector("h1");
+let butn = document.querySelector("#btn");
+let inp = document.querySelector("input");
 
-window.addEventListener("keydown", function(dets) {
-    console.dir(dets.key);
-
-    if (dets.key === " ") {
-        h1.textContent = "Space";
-    } else {
-
-        h1.textContent = dets.key;
-    }
+butn.addEventListener("click", function() {
+    inp.click();
 })
