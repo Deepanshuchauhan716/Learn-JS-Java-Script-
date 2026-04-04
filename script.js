@@ -1,3 +1,2 @@
-let h1 = document.createElement("h1");
-h1.textContent = "Hello js";
-document.querySelector("body").append(h1);
+let h1 = document.querySelector("h1");
+h1.style.color = "red";
