@@ -1,6 +1,5 @@
-let child = document.querySelector(".child");
-window.addEventListener("mousemove", function(dets) {
-    child.style.top = dets.clientY + "px";
-    child.style.left = dets.clientX + "px";
-
+let inp = document.querySelector("input");
+let span = document.querySelector("span");
+inp.addEventListener("input", function(dets) {
+    span.textContent = inp.value.length;
 });
