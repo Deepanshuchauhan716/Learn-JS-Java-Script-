@@ -9,3 +9,26 @@ body {
     padding: 100px;
     background-color: #999;
 }
+
+.card {
+    padding: 10px;
+    max-height: 200px;
+    max-width: 300px;
+    border: 1px solid black;
+    position: relative;
+    left: 400px;
+    bottom: 190px;
+}
+
+.pfp {
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.pfp img {
+    object-position: 100%;
+    width: 100%;
+    object-fit: cover;
+}
