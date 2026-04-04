@@ -1,16 +1,7 @@
-//EVENTS AND EVENT HANDLING
-//SCREEN PAR KUCH BHI MOVE KE LIYE EVENT AND EVENT AHNDLING KA USE HOTA HAI KI BUTTON PAR CLICK KRNE PAR KYA HONA CHIAYE AND KONSA FUNCTION CHLEGA!!ETCl
+let sel = document.querySelector("select");
+let h3 = document.querySelector("h3");
 
-let h1 = document.querySelector("h1");
-h1.addEventListener("click", function() {
-    h1.style.color = "red";
-})
-
-let input = document.querySelector("input");
-
-input.addEventListener("input", function(evt) {
-    if (evt.data !== null) {
-
-        console.log(evt.data);
-    }
+sel.addEventListener("change", function(dets) {
+    console.log(dets.target.value);
+    h3.textContent = "device Selected";
 })
