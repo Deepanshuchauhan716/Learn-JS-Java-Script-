@@ -1,5 +1,9 @@
-let inp = document.querySelector("input");
-let span = document.querySelector("span");
-inp.addEventListener("input", function(dets) {
-    span.textContent = inp.value.length;
+let h1 = document.querySelector("h1");
+document.addEventListener("keydown", function(dets) {
+    if (dets.key !== " ") {
+
+        h1.textContent = dets.key;
+    } else {
+        h1.textContent = "Space";
+    }
 });
