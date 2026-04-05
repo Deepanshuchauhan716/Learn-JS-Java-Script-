@@ -1,9 +1,4 @@
-let h1 = document.querySelector("h1");
-document.addEventListener("keydown", function(dets) {
-    if (dets.key !== " ") {
-
-        h1.textContent = dets.key;
-    } else {
-        h1.textContent = "Space";
-    }
-});
+let a = [12, 34, 45];
+a.forEach((item) => {
+    console.log(item);
+})
